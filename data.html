@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Table</title>
+  <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <body>
+  <header class="top-nav">
+    <nav>
+      <a href="registration.html" class="active">Registration Form</a>
+      <a href="data.html">Data Table</a>
+    </nav>
+  </header>
+
+  <div class="form-container">
+    <form id="registrationForm" novalidate>
+    </form>
+  </div>
+</body>  
+  <div class="container">
+    <h2>User Directory</h2>
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search by name, city, or age...">
+      
+      <div class="button-group">
+        <button id="sortNameBtn">Sort by Name</button>
+        <button id="sortAgeBtn">Sort by Age</button>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+      </tbody>
+    </table>
+  </div>
+  <script src="data.js"></script>
+</body>
+</html>
