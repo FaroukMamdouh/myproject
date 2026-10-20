@@ -1,13 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   
   let people = [
-    { name: "Alice Johnson", age: 28, city: "New York" },
-    { name: "Bob Smith", age: 34, city: "Los Angeles" },
+    { name: "Farouk Mamdoah", age: 23, city: "cairo" },
+    { name: "Bob Smith", age: 34, city: "London" },
     { name: "Charlie Brown", age: 22, city: "Chicago" },
-    { name: "Diana Prince", age: 30, city: "Houston" },
-    { name: "Evan Wright", age: 45, city: "Phoenix" },
-    { name: "Fiona Gallagher", age: 26, city: "Philadelphia" },
-    { name: "George Clark", age: 39, city: "San Antonio" }
+    { name: "Ahmed Mohamed", age: 30, city: "Aswan" }
   ];
 
   let sortDirection = {
